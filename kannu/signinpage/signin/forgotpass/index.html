@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="">
+      <nav class=" px-4 py-4 bg-black w-full min-h-5 text-white flex"><img class=" min-h-3 w-12"src="data:image/png;base64,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">spotify</nav>
+        <div class="grid grid-cols-1 lg:grid-cols-2 bg-black text-white h-full w-full">
+          <div class="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24 text-white">
+            <div class="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md text-white">
+              <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl text-white">
+                Reset your password
+              </h2>
+              <p class="mt-2 text-sm text-white">
+                Enter your email address or username, and we'll send you a link to get back into your account.
+                <!-- <a
+                  href="file:///C:/Users/Hp/Downloads/Tailwind%20css/index.html"
+                  title=""
+                  class="font-semibold text-white transition-all duration-200 hover:underline"
+                >
+                  Create a free account
+                </a> -->
+              </p>
+              <form action="#" method="POST" class="mt-8">
+                <div class="space-y-5">
+                  <div>
+                    <label for="" class="text-base font-medium text-white">
+                      
+                      Email address or username
+                    </label>
+                    <div class="mt-2">
+                      <input
+                        class="flex h-10 w-full rounded-md border border-white bg-transparent px-3 py-2 text-sm placeholder:text-white focus:outline-none focus:ring-1 focus:ring-white focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                        type="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                  <!--  -->
+                <button
+                  type="button"
+                  class="relative inline-flex w-full items-center justify-center rounded-md border border-green bg-green-600 px-3.5 py-2.5 font-semibold text-black transition-all duration-200 hover:bg-green hover:text-black focus:bg-green focus:text-black focus:outline-none"
+                >
+                  <span class="mr-2 inline-block">
+                    <!-- <svg
+                      class="h-6 w-6 text-[#2563EB]"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    > -->
+                      <!-- <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
+                    </svg>
+                  </span> -->
+                  Send link
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="h-full w-full">
+            <img
+              class="mx-auto h-full w-full rounded-md object-cover"
+              src="https://images.unsplash.com/photo-1630673245362-f69d2b93880e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1740&amp;q=80"
+              alt=""
+            />
+          </div> -->
+        </div>
+      </section>
+      
+</body>
+</html>
